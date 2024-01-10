@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: azure;
+}
+
+.banner {
+  background: #a2d2ff;
+  background: -webkit-linear-gradient(to right, #59C3C3, #52489C, #EBEBEB);
+  background: linear-gradient(to right, #59C3C3, #52489C, #EBEBEB);
+}
+
+.img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.img {
+    object-fit: cover;
+}
+
+.card-title {
+    height: 80px;
+}
+
+.links {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+.links:hover .card-title {
+    color: #524B9D;
+}
+
+.links:hover .img {
+    border: 4px solid #544A9D;
+}
+
